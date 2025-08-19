@@ -7,3 +7,4 @@ fastapi
 kernels
 mistral_common[opencv]
 pyngrok
+flashinfer-python --extra-index-url https://flashinfer.ai/whl/cu124/torch2.6

@@ -14,10 +14,10 @@ Open a terminal and type:
 `pip install -r requirements.txt`
 
 Export your HuggingFace API key:
-`EXPORT HUGGINGFACE_API_KEY=...`
+`EXPORT HF_TOKEN=...`
 
 In your terminal, run:
-`python service.py`
+`bentoml serve service.py:LLM`
 
 In your colab notebook, run the following codes:
 ```
